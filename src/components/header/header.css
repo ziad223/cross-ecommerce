@@ -1,0 +1,86 @@
+header{
+    height: 70vh;
+
+}
+.header-content{
+    display: flex;
+    gap: 20px;
+}
+.header-left{
+    background-image: url(../../images/hero/slider-bg1.jpg);
+    height: 500px;
+}
+.header-left div > *{
+    margin-bottom: 20px;
+}
+.header-left div{
+    margin-top: 80px;
+    margin-left: 20px;
+}
+.header-left div h2{
+    font-size: 35px;
+    color: gray;
+}
+.header-left div .pr{
+    color: var(--main-color);
+}
+.header-left div button{
+    background-color: var(--main-color);
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    width: 150px;
+}
+.header-left div p{
+    width: 60%;
+    font-size: 18px;
+    line-height: 1.5;
+    color: gray;
+}
+.header-right-up{
+   background-image: url(../../images/hero/slider-bg2.jpg); 
+   background-size: cover;
+   height: 50%;
+}
+.header-right-up div{
+    padding-top: 40px;
+    padding-left: 20px;
+}
+.header-right-up div > *{
+    margin-bottom: 20px;
+}
+.header-right-up div h2{
+    color: gray;
+}
+.header-right-up div h1{
+    color: var(--main-color);
+}
+.header-right-down{
+    height: 50%;
+    margin-top: 20px;
+    background-image: url(../../images/hero/slider-bnr.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ .header-right-down div{
+    padding-top: 30px;
+    padding-left: 20px;
+ }
+ .header-right-down div > *{
+    margin-bottom: 20px;
+ }
+ .header-right-down div h2{
+    width: 50%;
+ }
+ .header-right-down button{
+    background-color: var(--main-color);
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    width: 150px;
+ }

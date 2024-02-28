@@ -1,0 +1,40 @@
+.team-content{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.team{
+    width: 23%;
+    border: 1px solid #EEE;
+   padding: 10px;
+}
+.team > *{
+    margin-bottom: 20px;
+}
+.team img{
+    width: 150px;
+    border-radius: 50%;
+}
+.team h2{
+    font-size: 25px;
+}
+.team h3{
+    color: gray;
+}
+.team .social{
+    display: flex;
+    justify-content: space-around;
+}
+.team .social .team-icon{
+    padding: 10px;
+   border: 1px solid #eee;
+   border-radius: 50%;
+   cursor: pointer;
+   transition: 0.5s;
+}
+.team .social .team-icon:hover{
+    background-color: var(--main-color);
+    color: #fff;
+}

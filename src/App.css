@@ -1,0 +1,95 @@
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    font-family: "Poppins", sans-serif;
+  }
+  :root{
+    --main-color : #0167f3;
+  }
+.container{
+  width: 90%;
+  margin: 100px auto;
+}
+.title{
+  text-align: center;
+}
+.title h2{
+  color: var(--main-color);
+  font-size: 35px;
+}
+.title p{
+  width: 50%;
+  margin:10px auto;
+  font-size: 18px;
+  color: gray;
+  line-height: 1.5;
+}
+.services{
+display: flex;
+justify-content: space-around;
+}
+.service{
+  background-color: #ccc;
+  width: 24%;
+  text-align: center;
+  padding: 20px;
+}
+.contact-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.contact-left{
+  width: 50%;
+}
+.contact-left iframe{
+  width: 100%;
+  height: 400px;
+}
+.contact-right{
+  width: 50%;
+}
+.contact-right input{
+  display: block;
+  margin-bottom: 20px;
+  width: 80%;
+  padding: 10px;
+  outline: none;
+}
+.contact-right textarea{
+  display: block;
+  margin-bottom: 20px;
+  width: 80%;
+  padding: 10px;
+  outline: none;
+  height: 200px;
+}
+.app-dark{
+  background-color: #000;
+  color: #fff;
+}
+hr{
+  display: none;
+}
+.app-dark .navbar{
+  background-color: #222;
+  color: #fff;
+}
+.app-dark .nav-middle ul a{
+  color: #fff;
+}
+.app-dark .nav-middle ul a:hover{
+  background-color: #111;
+}
+.app-dark .feature{
+  background-color: #444;
+}
+.app-dark .product{
+  background-color: #333;
+}
+.app-dark .product button{
+  background-color: #222;
+}

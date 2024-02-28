@@ -1,0 +1,71 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+    position: sticky;
+    top: 0;
+    background-color: #ccc;
+}
+.cart-icon{
+    font-size: 30px;
+    cursor: pointer;
+}
+.nav-middle ul{
+    list-style: none;
+    display: flex;
+    gap: 30px; 
+}
+.nav-middle ul a{
+  text-decoration: none;
+  color: var(--main-color);
+  font-weight: bold;
+  padding: 10px;
+  transition: 0.5s;
+}
+.nav-middle ul a:hover{
+    background-color: #fff;
+}
+.nav-right {
+    display: flex;
+    gap: 20px;
+    position: relative;
+}
+.moon-icon{
+    font-size: 25px;
+    cursor: pointer;
+}
+.bag-icon{
+    font-size: 25px;
+    cursor: pointer;
+}
+hr{
+    opacity: 0.5;
+}
+.nav-right span{
+   width: 15px;
+   height: 20px;
+   border-radius: 50%;
+   background-color: red;
+   color: #fff;
+   padding: 1px;
+   text-align: center;
+   position: absolute;
+   right: 4px;
+   top: -13px;
+}
+.sun-icon{
+    font-size: 25px;
+    cursor: pointer;
+    animation: dark 3s infinite;
+}
+
+@keyframes dark {
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,32 @@
+.testimonail{
+    background-color: #ccc;
+    padding: 20px;
+    text-align: center;
+}
+.testimonail > *{
+    margin-bottom: 20px;
+}
+.testimonail img{
+    margin:20px auto;
+    display: block;
+    width: 150px;
+    height: 150px;
+
+}
+.testimonail p{
+    width: 70%;
+   margin: 20px auto;
+   line-height: 1.5;
+   font-size: 18px;
+}
+.testimonail div{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.testimonail .star-icon{
+    color: gold;
+}
+.testimonail h2{
+    color: var(--main-color);
+}

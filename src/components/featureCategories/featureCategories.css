@@ -1,0 +1,40 @@
+.features{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.feature{
+    text-align: center;
+    width: 22%;
+    padding: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.feature > *{
+    margin-bottom: 20px;
+}
+.feature h3{
+    color: gray;
+}
+.feature img{
+    width: 100%;
+}
+.feature h2{
+    font-size: 22px;
+}
+.feature div{
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+}
+.feature .stars{
+    display: flex;
+    justify-content: space-between;
+    gap: 3px;
+}
+.feature .star-icon{
+    color: gold;
+}
+.feature h1{
+    color: var(--main-color);
+}
